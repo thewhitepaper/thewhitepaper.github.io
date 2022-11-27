@@ -1,3 +1,4 @@
+![](/static/magazine.png)
 # The Whitepaper Magazine
 
 Voice for our freedom of speech.
