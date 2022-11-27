@@ -5,7 +5,7 @@ name = "The Whitepaper"
 description = "The Whitepaper Magazine"
 edit_url = "https://github.com/thewhitepaper/thewhitepaper.github.io/edit/main"
 menu = [
-    { name = "Voice for freedom of speech", url = "https://github.com/thewhitepaper/thewhitepaper.github.io" },
+    { name = "Voice for our freedom of speech", url = "https://github.com/thewhitepaper/thewhitepaper.github.io" },
 ]
 
 [theme]

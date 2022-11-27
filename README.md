@@ -1,6 +1,6 @@
 # The Whitepaper Magazine
 
-Voice for freedom of speech.
+Voice for our freedom of speech.
 
 ## How to express your voice?
 
