@@ -18,7 +18,7 @@ head_template = "templates/head.html"
 footer_template = "templates/footer.html"
 article_extend_template = "templates/article-extend.html"
 default_cover = "/static/bg.jpeg"
-default_avatar = "/static/the-beatls.jpeg"
+default_avatar = "/static/the-beatles.jpeg"
 
 [authors]
 folyd = { name = "◾️◾️◾️" }
