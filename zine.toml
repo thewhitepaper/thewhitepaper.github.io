@@ -3,6 +3,7 @@
 url = "https://thewhitepaper.github.io"
 name = "The Whitepaper"
 description = "The Whitepaper Magazine"
+edit_url = "https://github.com/thewhitepaper/thewhitepaper.github.io/edit/main"
 
 [theme]
 primary_color = "#ffddae"
@@ -12,7 +13,7 @@ link_color = "#36a5ea"
 background_image = "/static/bg.jpeg"
 head_template = "templates/head.html"
 footer_template = "templates/footer.html"
-# article_extend_template = "templates/article-extend.html"
+article_extend_template = "templates/article-extend.html"
 default_cover = "/static/bg.jpeg"
 default_avatar = "/static/the-beatls.jpeg"
 
