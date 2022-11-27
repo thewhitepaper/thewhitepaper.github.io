@@ -21,7 +21,7 @@ default_cover = "/static/bg.jpeg"
 default_avatar = "/static/the-beatls.jpeg"
 
 [authors]
-unknown = { name = "◾️◾️◾️" }
+folyd = { name = "◾️◾️◾️" }
 
 [[issue]]
 slug = "2022"
