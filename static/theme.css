@@ -6,7 +6,6 @@
 
 /* Set font family for those text */
 .zine-brand,
-.zine-menu,
 .zine-diamond,
 .zine-button,
 .zine-article-title,
@@ -16,8 +15,9 @@ h1 {
   color: var(--main-color) !important;
 }
 
-.zine-brand {
-    color: #fbfbfb !important;
+.zine-brand,
+.zine-menu {
+  color: #fbfbfb !important;
 }
 
 .zine-card-date {

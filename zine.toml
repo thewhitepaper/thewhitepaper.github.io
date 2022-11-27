@@ -4,6 +4,9 @@ url = "https://thewhitepaper.github.io"
 name = "The Whitepaper"
 description = "The Whitepaper Magazine"
 edit_url = "https://github.com/thewhitepaper/thewhitepaper.github.io/edit/main"
+menu = [
+    { name = "Voice for freedom of speech", url = "https://github.com/thewhitepaper/thewhitepaper.github.io" },
+]
 
 [theme]
 primary_color = "#ffddae"
