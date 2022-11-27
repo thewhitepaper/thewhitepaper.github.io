@@ -1,0 +1,26 @@
+
+[site]
+url = "https://thewhitepaper.github.io"
+name = "The Whitepaper"
+description = "The Whitepaper Magazine"
+
+[theme]
+primary_color = "#ffddae"
+secondary_color = "#faf8f3"
+main_color = "#222c4b"
+link_color = "#36a5ea"
+background_image = "/static/bg.jpeg"
+head_template = "templates/head.html"
+footer_template = "templates/footer.html"
+# article_extend_template = "templates/article-extend.html"
+default_cover = "/static/bg.jpeg"
+default_avatar = "/static/the-beatls.jpeg"
+
+[authors]
+unknown = { name = "◾️◾️◾️" }
+
+[[issue]]
+slug = "2022"
+number = 1
+title = "2022"
+path = "content/2022"

@@ -1,0 +1,33 @@
+.zine-header {
+  background-position-x: center;
+  background-position-y: top;
+  /* background-size: cover; */
+}
+
+/* Set font family for those text */
+.zine-brand,
+.zine-menu,
+.zine-diamond,
+.zine-button,
+.zine-article-title,
+.zine-card-title,
+h1 {
+  font-family: "Alfa Slab One", serif !important;
+  color: var(--main-color) !important;
+}
+
+.zine-brand {
+    color: #fbfbfb !important;
+}
+
+.zine-card-date {
+  font-family: "Alfa Slab One", serif !important;
+}
+
+main {
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+}
+
+.prose {
+  max-width: 75ch !important;
+}
