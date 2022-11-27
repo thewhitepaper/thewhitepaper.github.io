@@ -1,10 +1,18 @@
 
 [[article]]
-slug = "1"
-file = "1-first.md"
+file = "1.md"
 title = "◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️"
-author = "unknown"
+author = "folyd"
 cover = ""
+pub_date = "2022-11-27"
+publish = true
+featured = true
+
+[[article]]
+file = "2.md"
+title = "◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️"
+author = "folyd"
+cover = "/static/the-beatles.png"
 pub_date = "2022-11-27"
 publish = true
 featured = true

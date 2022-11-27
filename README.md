@@ -12,15 +12,14 @@ Voice for our freedom of speech.
 3. Add an `article` into `content/2022/zine.toml`.
 
 ```diff
-+[[article]]
-+slug = "2"
-+file = "2-finename.md"
-+title = "◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️"
-+author = "yourname"
-+cover = ""
-+pub_date = "2022-11-27"
-+publish = true
-+featured = true
++ [[article]]
++ file = "3.md"
++ title = "◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️"
++ author = "yourname"
++ cover = ""
++ pub_date = "2022-11-27"
++ publish = true
++ featured = true
 ```
 
 4. Add `author` to root `zine.toml` file.
