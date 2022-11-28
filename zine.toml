@@ -3,6 +3,7 @@
 url = "https://thewhitepaper.github.io"
 name = "The Whitepaper"
 description = "The Whitepaper Magazine"
+social_image = "/static/magazine.png"
 edit_url = "https://github.com/thewhitepaper/thewhitepaper.github.io/edit/main"
 menu = [
     { name = "Voice for our freedom of speech", url = "https://github.com/thewhitepaper/thewhitepaper.github.io" },
