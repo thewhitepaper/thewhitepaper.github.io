@@ -18,3 +18,12 @@ cover = "/static/the-beatles.png"
 pub_date = "2022-11-27"
 publish = true
 featured = true
+
+[[article]]
+file = "3.md"
+title = "◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️"
+author = "notzheng"
+cover = ""
+pub_date = "2022-11-28"
+publish = true
+featured = true
