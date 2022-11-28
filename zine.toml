@@ -22,9 +22,3 @@ default_avatar = "/static/the-beatles.jpeg"
 
 [authors]
 folyd = { name = "◾️◾️◾️" }
-
-[[issue]]
-slug = "2022"
-number = 1
-title = "2022"
-path = "content/2022"
