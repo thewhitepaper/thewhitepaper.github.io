@@ -20,6 +20,12 @@ h1 {
   color: #fbfbfb !important;
 }
 
+@media (min-width: 768px) {
+  .md\:p-10 {
+    padding: 5rem !important;
+  }
+}
+
 .zine-card-date {
   font-family: "Alfa Slab One", serif !important;
 }
