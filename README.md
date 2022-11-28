@@ -1,3 +1,5 @@
+> This is an extraordinary, historic moment in China. Protests are breaking out across the country-from Beijing, to elite colleges, to other major cities, and even far flung places. We have no freedom of speech, every dissident article gets banned, then people start using "◾◾◾◾" to express their voices. However, this also is prohibited. People have nothing to do but take a white paper to protest the government. We need support from all over the world. Thanks.
+
 ![](/static/magazine.png)
 # The Whitepaper Magazine
 
