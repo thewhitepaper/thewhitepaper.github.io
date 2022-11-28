@@ -23,4 +23,4 @@ echo "${name} = { name = \"◾️◾️◾️\" }" >> zine.toml
 
 echo "Thanks for expressing your voice."
 echo
-echo "Don't forget to \`git commit\` and \`git push\`, and finally submit your PR."
+echo "Don't forget to \`git commit -m \"Express my voice\"\`, \`git push origin your-branch\`, and finally submit your PR."
