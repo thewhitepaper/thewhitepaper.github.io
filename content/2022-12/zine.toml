@@ -2,3 +2,12 @@
 number = 2
 title = "2022-12"
 
+
+[[article]]
+file = "voice.md"
+path = "/6"
+title = "◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️"
+author = "paranoic"
+pub_date = "2022-12-02"
+publish = true
+featured = true
