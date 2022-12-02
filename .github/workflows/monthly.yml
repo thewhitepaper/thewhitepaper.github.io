@@ -1,0 +1,22 @@
+name: New monthly issue
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "00 12 1 * *"
+
+jobs:
+  build:
+    name: Create new issue
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: ./new-issue.sh
+    - 
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Express my voice
+        file_pattern: .
+        commit_user_name: Github Actions
+        commit_user_email: github-actions-bot@users.noreply.github.com
+        commit_author: Github Actions <actions@github.com>
