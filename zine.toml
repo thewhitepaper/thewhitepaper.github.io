@@ -22,5 +22,6 @@ default_cover = "/static/bg.jpeg"
 default_avatar = "/static/the-beatles.jpeg"
 
 [authors]
+paranoic = { bio = "A paranoic who keeps voicing for our freedom of speech." }
 folyd = { name = "◾️◾️◾️" }
 notzheng = { name = "◾️◾️◾️" }
