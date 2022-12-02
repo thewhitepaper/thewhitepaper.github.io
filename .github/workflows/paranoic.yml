@@ -1,0 +1,21 @@
+name: Paranoic
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "00 15 * * *"
+
+jobs:
+  build:
+    name: Paranoic's daily life
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: ./express-my-voice.sh paranoic
+    - 
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Express my voice
+        commit_user_name: Github Actions
+        commit_user_email: github-actions-bot@users.noreply.github.com
+        commit_author: Paranoic <actions@github.com>
