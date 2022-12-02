@@ -1,17 +1,18 @@
 number = 1
-title = "2022"
+title = "2022-11"
 
 [[article]]
-file = "1.md"
+file = "voice.md"
+path = "/1"
 title = "◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️"
 author = "folyd"
-cover = ""
 pub_date = "2022-11-27"
 publish = true
 featured = true
 
 [[article]]
-file = "2.md"
+file = "voice.md"
+path = "/2"
 title = "◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️"
 author = "folyd"
 cover = "/static/the-beatles.png"
@@ -20,10 +21,28 @@ publish = true
 featured = true
 
 [[article]]
-file = "3.md"
+file = "voice.md"
+path = "/3"
 title = "◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️"
 author = "notzheng"
-cover = ""
 pub_date = "2022-11-28"
+publish = true
+featured = true
+
+[[article]]
+file = "voice.md"
+path = "/4"
+title = "◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️"
+author = "notzheng"
+pub_date = "2022-11-29"
+publish = true
+featured = true
+
+[[article]]
+file = "voice.md"
+path = "/5"
+title = "◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️"
+author = "notzheng"
+pub_date = "2022-11-30"
 publish = true
 featured = true

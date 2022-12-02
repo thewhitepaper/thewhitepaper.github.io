@@ -2,25 +2,32 @@
 
 set -e
 
-read -p "Enter your name: " name
+if [ "$1" == "" ];
+then
+    read -p "Enter your name: " name
+else
+    name=$1
+fi
 
-number=$(($(echo $(ls content/2022/*.md | wc -l)) + 1))
+number=$(($(echo $(grep content/**/zine.toml -e "\[\[article\]\]" | wc -l)) + 1))
+month=$(date +'%Y-%m')
 date=$(date +%F)
 
-cp content/2022/1.md content/2022/${number}.md
+cp voice.md content/${month}/voice.md
 
 echo "
 [[article]]
-file = \"${number}.md\"
+file = \"voice.md\"
+path = \"/${number}\"
 title = \"◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️\"
 author = \"${name}\"
-cover = \"\"
 pub_date = \"${date}\"
 publish = true
-featured = true" >> content/2022/zine.toml
+featured = true" >> content/${month}/zine.toml
 
-echo "${name} = { name = \"◾️◾️◾️\" }" >> zine.toml
-
-echo "Thanks for expressing your voice."
-echo
-echo "Don't forget to \`git commit -m \"Express my voice\"\`, \`git push origin your-branch\`, and finally submit your PR."
+if [ "${1}" == "" ];
+then
+    echo "Thanks for expressing your voice."
+    echo
+    echo "Don't forget to \`git commit -m \"Express my voice\"\`, \`git push origin your-branch\`, and finally submit your PR."
+fi
