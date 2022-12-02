@@ -9,21 +9,29 @@ else
     name=$1
 fi
 
-number=$(($(echo $(grep content/**/zine.toml -e "\[\[article\]\]" | wc -l)) + 1))
+id=$(($(echo $(grep content/**/zine.toml -e "\[\[article\]\]" | wc -l)) + 1))
 month=$(date +'%Y-%m')
 date=$(date +%F)
+
+number=$(($(echo $(grep content/$month/zine.toml -e "\[\[article\]\]" | wc -l))))
+if [[ $number -lt 5 ]];
+then
+    featured="true"
+else
+    featured="false"
+fi
 
 cp voice.md content/${month}/voice.md
 
 echo "
 [[article]]
 file = \"voice.md\"
-path = \"/${number}\"
+path = \"/${id}\"
 title = \"◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️\"
 author = \"${name}\"
 pub_date = \"${date}\"
 publish = true
-featured = true" >> content/${month}/zine.toml
+featured = ${featured}" >> content/${month}/zine.toml
 
 if [ "${1}" == "" ];
 then
