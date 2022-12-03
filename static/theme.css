@@ -34,6 +34,6 @@ main {
   font-family: "Fira Sans", Helvetica, Arial, sans-serif;
 }
 
-.prose {
-  max-width: 75ch !important;
+.prose, .max-w-prose {
+  max-width: 78ch !important;
 }
