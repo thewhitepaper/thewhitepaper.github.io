@@ -23,5 +23,5 @@ jobs:
       run: |
         curl -X POST -H "Accept: application/vnd.github.v3+json" \
               -H "Authorization: token ${{ secrets.TOKEN }}" \
-              -d '{"event_type":"paranoic","client_payload":{}' \
+              -d '{"event_type":"build-magazine","client_payload":{}' \
               https://api.github.com/repos/thewhitepaper/thewhitepaper.github.io/dispatches
