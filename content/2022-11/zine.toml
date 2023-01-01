@@ -15,7 +15,6 @@ file = "voice.md"
 path = "/2"
 title = "◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️"
 author = "folyd"
-cover = "/static/the-beatles.png"
 pub_date = "2022-11-27"
 publish = true
 featured = true

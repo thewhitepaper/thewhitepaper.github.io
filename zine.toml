@@ -18,8 +18,8 @@ background_image = "/static/bg.jpeg"
 head_template = "templates/head.html"
 footer_template = "templates/footer.html"
 article_extend_template = "templates/article-extend.html"
-default_cover = "/static/bg.jpeg"
-default_avatar = "/static/the-beatles.jpeg"
+default_cover = "/static/whitepaper2.png"
+default_avatar = "/static/bg.jpeg"
 
 [authors]
 paranoic = { avatar = "/static/paranoic.jpg", bio = "A paranoic who keeps voicing for our freedom of speech." }
