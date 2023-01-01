@@ -15,7 +15,7 @@ jobs:
     - 
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: Express my voice
+        commit_message: New month issue
         commit_user_name: Github Actions
         commit_user_email: github-actions-bot@users.noreply.github.com
         commit_author: Paranoic <actions@github.com>

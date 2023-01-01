@@ -3,7 +3,7 @@
 
 set -e
 
-number=$(($(echo $(ls -d content | wc -l)) + 1))
+number=$(($(echo $(ls -d content/* | wc -l)) + 1))
 month=$(date +'%Y-%m')
 
 mkdir -p content/${month}
