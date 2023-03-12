@@ -1,6 +1,7 @@
 
 number = 3
 title = "2023-01"
+publish = true
 
 
 [[article]]

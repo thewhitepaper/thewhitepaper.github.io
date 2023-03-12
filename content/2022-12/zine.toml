@@ -1,5 +1,6 @@
 number = 2
 title = "2022-12"
+publish = true
 
 [[article]]
 file = "voice.md"

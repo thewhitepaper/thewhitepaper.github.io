@@ -10,4 +10,5 @@ mkdir -p content/${month}
 echo "
 number = ${number}
 title = \"${month}\"
+publish = true
 " > content/${month}/zine.toml
