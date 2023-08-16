@@ -138,3 +138,12 @@ author = "paranoic"
 pub_date = "2023-08-15"
 publish = true
 featured = false
+
+[[article]]
+file = "voice.md"
+path = "/264"
+title = "◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️"
+author = "paranoic"
+pub_date = "2023-08-16"
+publish = true
+featured = false
