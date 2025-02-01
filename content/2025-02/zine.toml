@@ -3,3 +3,12 @@ number = 28
 title = "2025-02"
 publish = true
 
+
+[[article]]
+file = "voice.md"
+path = "/799"
+title = "◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️"
+author = "paranoic"
+pub_date = "2025-02-01"
+publish = true
+featured = true
